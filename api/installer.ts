@@ -14,6 +14,10 @@ export default async function handler(_) {
               <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
               
               <style>
+                body {
+                  margin: 0;
+                }
+                
                 .container {
                   max-width: 677px;
                   width: 100%;
