@@ -8,8 +8,7 @@ export default async function handler(_) {
           '<html><head><title>Vercel Edge Functions + Streaming</title></head><body>',
         ),
       );
-      controller.enqueue(encoder.encode('Vercel Edge Functions + Streaming'));
-      controller.enqueue(encoder.encode('</body></html>'));
+
       controller.close();
     },
   });
