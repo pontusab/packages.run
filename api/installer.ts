@@ -9,15 +9,27 @@ export default async function handler(_) {
           <html>
             <head>
               <title>Configurable Installer</title>
+              <meta name="color-scheme" content="dark light">
               <link rel="preconnect" href="https://fonts.googleapis.com">
               <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
               <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
               
               <style>
                 body {
-                  margin: 0;
+                  --text-color: #000;
                 }
 
+                @media (prefers-color-scheme: dark) {
+                  body {
+                    --text-color: #fff;
+                  }
+                }
+
+                body {
+                  background: var(--bkg-color);
+                  margin: 0;
+                }
+                
                 .container {
                   max-width: 677px;
                   width: 100%;
@@ -50,7 +62,8 @@ export default async function handler(_) {
                   content: "$ ";
                 }
 
-                .dropdown 
+                .dropdown {
+                  color: var(--text-color);
                   font-style: normal;
                   font-weight: 400;
                 }
