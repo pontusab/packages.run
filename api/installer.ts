@@ -31,6 +31,7 @@ export default async function handler(_) {
                 }
                 
                 .container {
+                  padding: 15px;
                   max-width: 677px;
                   width: 100%;
                 }
