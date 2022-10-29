@@ -5,7 +5,30 @@ export default async function handler(_) {
     start(controller) {
       controller.enqueue(
         encoder.encode(
-          '<html><head><title>Vercel Edge Functions + Streaming</title></head><body>',
+          `
+          <html>
+            <head>
+              <title>Configurable Installer</title>
+              <link rel="preconnect" href="https://fonts.googleapis.com">
+              <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+              <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+              
+              <style>
+                .installer {
+                  width: 677px;
+                  height: 46px;
+                  background-color: black;
+                }
+              </style>
+            </head>
+            
+            <body>
+              <div class="installer">
+                npm install next react react-dom
+              </div>
+            </body/>
+          </html>
+          `,
         ),
       );
 
