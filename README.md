@@ -16,8 +16,9 @@ pnpm create next-app
 ```
 
 Embed: 
+```
 <iframe style="width: 100%; height: 110px; border: none;" src="https://installer-six.vercel.app/api/v1?npx=npx%20create-next-app@latest&yarn=yarn%20create%20next-app&pnpm=pnpm%20create%20next-app"></iframe>
-
+```
 
 URL:
 ```
