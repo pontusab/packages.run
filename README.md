@@ -1,6 +1,8 @@
 # Packages.run
 Make your installaton step shorter
 
+![ScreenShot](screenshot.png)
+
 ## Example
 https://nextjs.org/docs/getting-started
 
@@ -13,11 +15,11 @@ yarn create next-app
 pnpm create next-app
 ```
 
-New: 
+Embed: 
 <iframe style="width: 100%; height: 110px; border: none;" src="https://installer-six.vercel.app/api/v1?npx=npx%20create-next-app@latest&yarn=yarn%20create%20next-app&pnpm=pnpm%20create%20next-app"></iframe>
 
 
-How to:
+URL:
 ```
 https://installer-six.vercel.app/api/v1?npx=npx create-next-app@latest&yarn=yarn create next-app&pnpm=pnpm create next-app
 ```
