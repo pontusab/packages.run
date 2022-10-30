@@ -3,7 +3,7 @@ Make your installaton step shorter
 
 ![ScreenShot](screenshot.png)
 
-<a href="https://www.packages.run/api/v1/api/v1?npx=npx create-next-app@latest&yarn=yarn create next-app&pnpm=pnpm create next-app">Demo</a>
+<a href="https://www.packages.run/api/v1?npx=npx create-next-app@latest&yarn=yarn create next-app&pnpm=pnpm create next-app">Demo</a>
 
 
 ## Example
