@@ -126,14 +126,12 @@ export default async function handler(req) {
                   });
                 }
 
-                const getPreferredOption = () => {
-                  const option = localStorage.getItem('preferred-option');
-
-                  console.log(option)
-
-                  return option
+                const copyToClipboard = () =>{
+                  const command = document.querySelector('pre').innerHTML;
+                  navigator.clipboard.writeText(command).then(() => {
+                    // TODO: Show tooltip
+                  });
                 }
- 
               </script>
             </body/>
           </html>
